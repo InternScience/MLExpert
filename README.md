@@ -1,6 +1,12 @@
 # M1: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering
 
-[📄 Paper](paper/M1_agentic_mle_arxiv.pdf) · [🤗 Model](https://huggingface.co/InternScience/M1)
+<p align="center">
+  <a href="https://huggingface.co/InternScience/M1">🤗 Model</a>
+  &nbsp; · &nbsp;
+  <a href="paper/M1_agentic_mle_arxiv.pdf">📄 Paper</a>
+  &nbsp; · &nbsp;
+  <a href="https://huggingface.co/InternScience/M1/blob/main/LICENSE">⚖️ Model License</a>
+</p>
 
 **M1** is a 35B Mixture-of-Experts agentic model for autonomous machine learning engineering. It organizes experiments, writes and revises code, and improves solutions through sustained interaction with execution environments. Hierarchical agentic supervised fine-tuning (SFT) develops general tool-use and domain-specific optimization skills, while **Windowed Interaction Reinforcement Learning (WIRL)** trains multi-turn decisions using feedback from completed experiments.
 
