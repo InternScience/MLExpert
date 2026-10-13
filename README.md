@@ -1,6 +1,6 @@
 # M1: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering
 
-[📄 Paper](paper/M1_agentic_mle_arxiv.pdf) · [🤗 Model Weights](https://huggingface.co/InternScience/M1)
+[📄 Paper](paper/M1_agentic_mle_arxiv.pdf) · [🤗 Model](https://huggingface.co/InternScience/M1)
 
 **M1** is a 35B Mixture-of-Experts agentic model for autonomous machine learning engineering. It organizes experiments, writes and revises code, and improves solutions through sustained interaction with execution environments. Hierarchical agentic supervised fine-tuning (SFT) develops general tool-use and domain-specific optimization skills, while **Windowed Interaction Reinforcement Learning (WIRL)** trains multi-turn decisions using feedback from completed experiments.
 
@@ -19,15 +19,11 @@ The model selects subsequent actions based on experimental states and execution 
 
 ![Decision making in long-horizon MLE optimization](assets/model-directed-mle.png)
 
-[Download figure (PDF)](assets/model-directed-mle.pdf)
-
 ### Task construction and post-training
 
 The **Kaggle-MLE Factory** constructs executable machine learning tasks. The interaction harness supports model-directed experimentation and teacher trajectory collection. **Hierarchical agentic SFT** transfers general coding and tool-use capabilities to MLE through outcome-guided supervision. **WIRL** groups decisions between successive experiment results into execution windows and learns from intermediate execution feedback through asynchronous collection and policy correction.
 
 ![Overview of M1 training for autonomous MLE](assets/m1-training-overview.png)
-
-[Download figure (PDF)](assets/m1-training-overview.pdf)
 
 ## Performance
 
