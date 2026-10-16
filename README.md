@@ -1,11 +1,11 @@
 # MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering
 
 <p align="center">
-  <a href="https://huggingface.co/InternScience/MLExpert">🤗 Model</a>
-  &nbsp; · &nbsp;
-  <a href="paper/MLExpert_agentic_mle_arxiv.pdf">📄 Paper</a>
-  &nbsp; · &nbsp;
-  <a href="https://huggingface.co/InternScience/MLExpert/blob/main/LICENSE">⚖️ Model License</a>
+  <a href="https://huggingface.co/InternScience/MLExpert"><img src="assets/model-badge.svg" width="150" height="20" alt="Hugging Face Model: MLExpert" align="absmiddle"></a>
+  &nbsp;
+  <a href="https://arxiv.org/abs/2610.22344"><img src="assets/arxiv-badge.svg" width="146" height="20" alt="arXiv: 2610.22344" align="absmiddle"></a>
+  &nbsp;
+  <a href="https://huggingface.co/InternScience/MLExpert/blob/main/LICENSE"><img src="assets/model-license-badge.svg" width="180" height="20" alt="Model License: Apache-2.0" align="absmiddle"></a>
 </p>
 
 **MLExpert** is a 35B Mixture-of-Experts agentic model for autonomous machine learning engineering. It organizes experiments, writes and revises code, and improves solutions through sustained interaction with execution environments. Hierarchical agentic supervised fine-tuning (SFT) develops general tool-use and domain-specific optimization skills, while **Windowed Interaction Reinforcement Learning (WIRL)** trains multi-turn decisions using feedback from completed experiments.
