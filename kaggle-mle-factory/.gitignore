@@ -1,0 +1,16 @@
+config.yaml
+kaggle.json
+.env
+.env.*
+.venv/
+venv/
+__pycache__/
+*.pyc
+raw/
+workspace/
+output/
+logs/
+validation/
+demo-workdir/
+data/*.json
+data/exclusion_list.txt

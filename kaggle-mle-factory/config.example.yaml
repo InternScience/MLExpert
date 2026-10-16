@@ -1,0 +1,33 @@
+# Copy to config.yaml for local settings, or use the environment variables
+# documented in README.md. config.yaml is ignored by Git.
+llm:
+  api_key: ""
+  base_url: ""
+  model: ""
+  timeout: 300
+  max_retries: 2
+  max_tokens: 8192
+  temperature: 1.0
+  max_prompt_chars: 0  # 0 means unlimited; a nonzero limit fails explicitly, never truncates
+kaggle:
+  bin: "kaggle"
+  credentials: "~/.kaggle/kaggle.json"
+  proxy: ""
+  download_timeout: 7200
+paths:
+  raw_dir: "raw"
+  workspace_dir: "workspace"
+  output_dir: "output"
+prepare:
+  timeout: 5400
+  auxiliary_files: []  # Explicit relative feature files allowed for automatic copying
+validation:
+  grading_timeout: 120
+  max_grading_rows: 1000  # 0 tests the full submission; subsets are aligned by ID
+  repair_rounds: 2
+# Optional: only used by `python -m src.discovery`, never by --slug/--slugs.
+filtering:
+  min_teams: 50
+  max_size_gb: 200
+  require_csv_submission: true
+  ended_only: true

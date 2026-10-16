@@ -1,0 +1,3 @@
+# Optional exclusions for competition discovery, one slug per line.
+# Copy to exclusion_list.txt and add evaluation tasks or duplicates to exclude.
+# This list is not consulted when constructing an explicit --slug or --slugs.

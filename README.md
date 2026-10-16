@@ -45,6 +45,10 @@ NatureBench Lite comprises ten scientific experimentation tasks. **M** denotes M
 
 ![NatureBench Lite main results](assets/naturebench-lite-table.png)
 
+## Kaggle-MLE Factory
+
+The [Kaggle-MLE Factory](kaggle-mle-factory/) builds executable MLE tasks from user-supplied Kaggle competition slugs, including downloading, data analysis, LLM-generated preparation and scoring scripts, validation, and repair. Kaggle credentials and the model service are user-configurable. Generated data splits and scoring code require human review, especially for complex competition metrics. Start with its [offline example](kaggle-mle-factory/README.md#usage), which runs without Kaggle credentials or a model service.
+
 ## Usage
 
 **MLExpert** model weights are available on [Hugging Face](https://huggingface.co/InternScience/MLExpert). The commands below serve an OpenAI-compatible API at `http://localhost:8000/v1` with tensor parallelism across two GPUs.
